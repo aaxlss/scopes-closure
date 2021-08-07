@@ -22,7 +22,7 @@ let x = 1;
 }
 console.log(x);
 
-const anotherFunction = () {
+const anotherFunction = () => {
     for (let index = 0; index < 10; index++) {
         setTimeout(()=>{
             console.log(index)
@@ -30,3 +30,5 @@ const anotherFunction = () {
         
     }
 }
+
+anotherFunction();
